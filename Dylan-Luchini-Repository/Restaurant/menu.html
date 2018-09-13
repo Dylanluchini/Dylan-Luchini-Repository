@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<!--
+Name: Dylan Luchini
+Date Created: 9/1/18
+Most Recent Revision: 9/1/18
+-->
+<html lang=en>
+	<head>
+	
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+	
+		<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		
+		<title>Delicious Cafe</title>
+		<link href="styles/restaurantStyles.css" rel="stylesheet" type-"text/css" />
+		<style>
+		
+		table {
+			max-width: 1500px;
+			margin-left: auto;
+			margin-right: auto;
+			cell-spacing: 10px;
+			cell-collapse: seperate;
+		}
+		
+		td {
+			text-align: center;
+			width: 29%
+		}
+		
+		body {
+			background-color: silver;
+			font-family: arial, helvetica, sans-serif;
+			margin: 0 auto;
+		}
+		
+		#beverages {
+			margin-left: auto;
+			margin-right: auto;
+			width: 18%;
+			height: 20%;
+		}
+		
+
+		nav .btn {
+			background-color: maroon;
+			color: #fef9ff; 
+		}
+		
+		#main {
+			margin: 50px;
+		}
+		
+		th {
+			font-weight: 400;
+		}
+
+		</style>
+	</head>
+	<section>
+	<body>
+	
+		<noscript>
+				This site is best viewed with Javascript enabled.
+		</noscript>
+		
+	<div class="container">
+
+		</div>
+	
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
+	integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" 
+	crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" 
+	integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" 
+	crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" 
+	integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" 
+	crossorigin="anonymous"></script>
+	
+	
+		<header>
+		<h1>Delicious Cafe</h1>
+		</header>
+		
+		<header class="jumbotron">
+			<h2>We are opening a new location!</h2>	
+			<h4><em>Stop by our new restaurant at 1234 S. Peterson Ave.!</em></h4>
+		</header>
+		
+
+		<nav>
+		
+		<ul class="nav nav-tabs">
+			<li><a class="btn badge-pill" badge-pill href="home.html"><span class="glyphicon glyphicon-home"></span>   Home</a></li>
+			<li class="active"><a class ="btn" badge-pill href="menu.html"><span class="glyphicon glyphicon-cutlery"></span>   Menu</a></li>
+			<li><a class ="btn" badge-pill href="contact.html"><span class="glyphicon glyphicon-envelope"></span>    Contact</a></li>
+		</ul>
+		
+		<!--
+		<a class="btn" href="home.html"><span class="glyphicon glyphicon-home"></span>   Home</a>      
+		<a class ="btn" href="menu.html"><span class="glyphicon glyphicon-cutlery"></span>   Menu</a>      
+		<a class ="btn" href="contact.html"><span class="glyphicon glyphicon-envelope"></span>   Contact</a>
+		-->
+		<div class="clear-float"></div>
+		</nav>
+		
+		
+		
+		<div id="main">
+		
+		<table>
+			<tr>
+				<td>
+					<h3><strong>Hamburger</strong></h3>
+					<p>A medium well burger on a bun with 
+					fries</p>
+					<p><em>$6.99</em></p>
+				</td>
+				<td>
+					<h3><strong>Hot Dog</strong></h3>
+					<p>A delicious beef frank, served with chips</p>
+					<p><em>$5.99</em></p>
+				</td>
+				<td>
+					<h3><strong>Soup of the Day</strong></h3>
+					<p>Ask your waiter about the soup of the day. </p>
+					<p><em>$4.99</em></p>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<h3><strong>Pepperoni Pizza</strong></h3>
+					<p>A 16" pepperoni pizza, made with 
+					organic cheese and fresh roasted marinara sauce. 
+					Chef's favorite. Comes with a drink.</p>
+					<p><em>$8.99</em></p
+				</td>
+				<td>
+					<h3><strong>Salmon</strong></h3>
+					<p>Garlic and herb rub on a fillet of 
+					Alaskan salmon. Comes with your choice of 
+					side (fries, chips, or breadsticks) and a drink.</p>
+					<p><em>$9.99</em></p>
+				</td>
+				<td>
+					<h3><strong>Fish Sticks</strong></h3>
+					<p>Alaskan cod, fried in bread 
+					crumbs and brushed with lemon herb. 
+					Served with fries and tartar sauce. 
+					Comes with a drink.</p>
+					<p><em>$7.99</em></p>
+				</td>
+			</tr>
+		</table>
+		
+		<table id="beverages">
+			<tr>
+				<th colspan="2"><h3><strong>Beverages</strong></h3></th>
+			</tr>
+			<tr>
+				<th>Root Beer</th>
+				<th><em>$2.99</em></th>
+			</tr>
+			<tr>
+				<th>Bottled Water</th>
+				<th><em>$1.25</em></th>
+			</tr>
+			<tr>
+				<th>Lemonade</th>
+				<th><em>$1.00</em></th>
+			</tr>
+			<tr>
+				<th>Iced Tea</th>
+				<th><em>$1.25</em></th>
+			</tr>
+		</table>
+	</div>			
+	</body>
+	</section>
+	
+	<hr />
+	
+	<footer>
+	<p>55 Bleecker Street, Chicago, IL, 60176</p>
+	
+	<p>(123)123-4567</p>
+	</footer>
+</html>

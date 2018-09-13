@@ -1,0 +1,92 @@
+/*
+Name: Dylan Luchini
+Date created: 9/3/18
+Last modified:
+*/
+
+
+	body {
+		max-width:1450px;
+		margin: 0 auto;
+}
+		
+	header, footer {
+		background-color: maroon;
+		text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+		color: #fef9ff;
+		height: 100px;
+		text-align: left;
+		padding: 10px 10px 20px 10px;
+		font-family: 'lobster',cursive;
+		font-size: 40px;
+}
+
+	
+	
+
+	footer {
+		font-size: 20px;
+		text-align:center;
+		
+}
+
+	.jumbotron {
+		background-color: white;
+		text-shadow:0 0 black, 0 0 black, 0 0 black, 0 0 black;
+		padding: 1px 10px 20px 20px;
+		text-align: right;
+}
+			
+
+	nav a {
+		background-color: maroon;
+		color: #fef9ff;
+		padding: 8px;
+		border: thin solid #0d1f2d;
+		text-decoration: none;
+		text-align: center;
+		display: block;
+		margin: 20px;
+		width: 100px;
+		float: left;
+}
+
+	nav a:hover {
+		background-color: maroon;
+		color: silver;
+		font-weight: bold;
+}
+
+	nav a:active {
+		font-weight: bold;
+		
+}
+	
+	nav a:visited {
+		color:silver; 
+}
+
+
+	.clear-float {
+		clear:both;
+}
+
+	#main {
+		padding-top:20px;
+		
+}
+
+	h1 {
+		line-height:20px;
+		font-size:80px;
+}
+	
+	
+	h3 {
+		font-family:'lobster';
+		font-size: 30px;
+		text-align:center;
+}
+
+
+
