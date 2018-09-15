@@ -2,7 +2,7 @@
 <!--
 Name: Dylan Luchini
 Date Created: 9/1/18
-Most Recent Revision: 9/11/18
+Most Recent Revision: 9/15/18
 -->
 <html lang=en>
 	<head>
@@ -81,9 +81,6 @@ Most Recent Revision: 9/11/18
 				width: 400px;
 				height: 200px;
 			}
-			
-			
-
 		
 		</style>
 	</head>
@@ -91,12 +88,12 @@ Most Recent Revision: 9/11/18
 	<body>
 	
 		<noscript>
-				This site is best viewed with Javascript enabled.
+				This site is best viewed with Javascript enabled. Please enable Javascript and reload the page.
 		</noscript>
 		
 	
-	<script type="text/javascript"></script>
-	<script>
+		<script type="text/javascript"></script>
+		<script>
 		function validateForm() 
 		{
 			if ((document.contactForm.firstName.value == "") || (document.contactForm.lastName.value == "") || (document.contactForm.phoneNumber.value == ""))
@@ -110,10 +107,9 @@ Most Recent Revision: 9/11/18
 				}
 	
 		}
-	</script>
+		</script>
 	
-	<div class="container">
-
+		<div class="container">
 		</div>
 	
 		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
@@ -127,7 +123,7 @@ Most Recent Revision: 9/11/18
 	crossorigin="anonymous"></script>
 	
 		<header>
-		<h1>Delicious Cafe</h1>
+			<h1>Delicious Cafe</h1>
 		</header>
 		
 		<header class="jumbotron">
@@ -139,11 +135,11 @@ Most Recent Revision: 9/11/18
 
 		<nav>
 		
-		<ul class="nav nav-tabs">
-			<li><a class="btn badge-pill" badge-pill href="home.html"><span class="glyphicon glyphicon-home"></span>   Home</a></li>
-			<li><a class ="btn" badge-pill href="menu.html"><span class="glyphicon glyphicon-cutlery"></span>   Menu</a></li>
-			<li class="active"><a class ="btn" badge-pill href="contact.html"><span class="glyphicon glyphicon-envelope"></span>    Contact</a></li>
-		</ul>
+			<ul class="nav nav-tabs">
+				<li><a class="btn badge-pill" badge-pill href="home.html"><span class="glyphicon glyphicon-home"></span>   Home</a></li>
+				<li><a class ="btn" badge-pill href="menu.html"><span class="glyphicon glyphicon-cutlery"></span>   Menu</a></li>
+				<li class="active"><a class ="btn" badge-pill href="contact.html"><span class="glyphicon glyphicon-envelope"></span>    Contact</a></li>
+			</ul>
 		
 		<div class="clear-float"></div>
 		</nav>
@@ -200,7 +196,7 @@ Most Recent Revision: 9/11/18
 				 <div class="form-group">
 					<label for="textArea">Additional comments:</label>
 					<textarea class="form-control" id="textArea" rows="3"></textarea>
-					<input type="submit" value="Submit" onclick="validateForm()"></input></input>
+					<input type="submit" value="Submit" onclick="validateForm()"></input>
 				</div>
 		</div>
 		
@@ -210,8 +206,7 @@ Most Recent Revision: 9/11/18
 	<hr />
 	
 	<footer>
-	<p>55 Bleecker Street, Chicago, IL, 60176</p>
-	
-	<p>(123)123-4567</p>
+		<p>55 Bleecker Street, Chicago, IL, 60176</p>
+		<p>(123)123-4567</p>
 	</footer>
 </html>

@@ -1,3 +1,7 @@
+//Name: Dylan Luchini
+//Date Created: 9/7/18
+//Most Recent Revision: 9/15/18
+
 function luckySevens () {
 	var bet = document.getElementById("bet").value;
 	var money = 0;
