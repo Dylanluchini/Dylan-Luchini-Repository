@@ -7,55 +7,56 @@ Most Recent Revision: 9/15/18
 
 <html lang=en>
 
-<head>
-	<title>Dylan's Lucky Sevens</title>
-	<style>
-	body {
-		text-align: center;
-		background-color: #686973;
-		color: white;
-		font-family: arial;
+	<head>
+		<title>Dylan's Lucky Sevens</title>
+		<style>
+		body {
+			text-align: center;
+			background-color: #686973;
+			color: white;
+			font-family: arial;
+			
+			}
+			
+		footer {
+			font-size: 13px;
+			}
 		
-		}
-		
-	footer {
-		font-size: 13px;
-		}
-	
-	td {
-		border: solid gray 3px;
-		}
-		
-	submit {
-		margin: 20px;
-		}
-		
-		p {
-		font-size: 20px;
-		}
-	</style>
-</head>
+		td {
+			border: solid gray 3px;
+			}
+			
+		submit {
+			margin: 20px;
+			}
+			
+			p {
+			font-size: 20px;
+			}
+		</style>
+	</head>
 
-<body>
-	<noscript>
-	This site is best viewed with Javascript enabled. Please enable Javascript and reload the page.
-	</noscript>
-	<header>
-		<h1><strong>Lucky Sevens</strong></h1>
-	</header>
-	
+	<body>
+		<noscript>
+		This site is best used with Javascript enabled. Please enable Javascript and reload the page.
+		</noscript>
+		<header>
+			<h1><strong>Lucky Sevens</strong></h1>
+		</header>
+		
+		<br />
+		
+		Starting bet: <input class="txtBox" type="text" id="bet" name="bet" value="$0.00"><br />
+		<input type="submit" value="Play!" onclick="luckySevens ()"></input>
+		
+		<div style="text-align:center;" id="p1"></div>
+		
+	</body>
+
 	<br />
-	
-	Starting bet: <input class="txtBox" type="text" id="bet" name="bet" value="$0.00"><br />
-	<input type="submit" value="Play!" onclick="luckySevens ()"></input>
-	
-	<div style="text-align:center;" id="p1"></div>
-	
-</body>
 
-<br />
-
-<footer>
-	&copy; 2018 Dylan Luchini. All rights reserved.
-	<script src="scripts/l7.js"></script>
-</footer>
+	<footer>
+		&copy; 2018 Dylan Luchini. All rights reserved.
+		<script src="scripts/l7.js"></script>
+	</footer>
+</html>
